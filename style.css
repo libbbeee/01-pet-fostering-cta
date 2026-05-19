@@ -1,0 +1,125 @@
+/* Page background and text base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #eaf7fb;
+  color: #042f4a;
+}
+
+/* Simple top header with matching palette */
+.site-header {
+  padding: 14px 20px 12px;
+  text-align: center;
+  background-color: #d6f4ff;
+}
+
+.site-title {
+  display: inline-block;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0b5f8f;
+  line-height: 1.2;
+}
+
+/* CTA banner wrapper with a background image and subtle overlay */
+.cta-banner {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(rgba(4, 54, 74, 0.55), rgba(4, 54, 74, 0.55)), url("img/cta-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+/* Inner content area for readability on the banner */
+.cta-content {
+  max-width: 720px;
+  text-align: center;
+  padding: 40px 30px;
+  background-color: rgba(4, 54, 74, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+}
+
+/* Small tagline above the main heading */
+.cta-tag {
+  margin: 0 0 16px;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d6f4ff;
+}
+
+/* Main heading for strong, action-oriented messaging */
+.cta-content h1 {
+  font-size: clamp(2.6rem, 4vw, 4rem);
+  line-height: 1.05;
+  margin: 0 0 22px;
+}
+
+/* Short description explaining the importance of fostering */
+.cta-text {
+  margin: 0 auto 32px;
+  max-width: 560px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e5f7ff;
+}
+
+/* Bright button-style link that stands out on the banner */
+.cta-button {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #042f4a;
+  background-color: #f7d230;
+  border-radius: 999px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button hover effect for better interactivity */
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.24);
+}
+
+/* Two-column info section below the banner */
+.info-section {
+  max-width: 1100px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.info-column {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+  margin: 0 10px;
+}
+
+.info-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+}
+
+.info-copy h2 {
+  margin-top: 15px;
+  color: #0b5f8f;
+}
+
+.info-copy p {
+  color: #04384f;
+  line-height: 1.75;
+  margin: 16px 0;
+}
